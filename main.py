@@ -1,6 +1,10 @@
 from Genetic_Algorithm import *
 from Snake_Game import *
 
+#adding seed 
+seed=2345
+np.random.seed(seed)
+
 # n_x -> no. of input units
 # n_h -> no. of units in hidden layer 1
 # n_h2 -> no. of units in hidden layer 2
